@@ -13,7 +13,6 @@ public class Calculadora {
             logger.error( "Se esta intentanto dividir por cero" );
             return null;
         }
-
         var resultado = dividendo / divisor;
 
         logger.info( "{} dividido entre {} es igual a {}", dividendo, divisor, resultado);
